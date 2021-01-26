@@ -4,7 +4,7 @@ var form = document.getElementById('myForm');
 var table = document.getElementById('myTable');
 var arrayOfCars = [];
 // var arrayOfImg = 
-
+var cat = document.getElementById('cat')
 
 
 
@@ -21,9 +21,10 @@ AllCar.prototype.renderCar = function () {
     var tableRow = document.createElement('tr');
     var carImg = document.createElement('img');
     var par = document.createElement('p');
-    carImg.setAttribute("src", this.img);
+    carImg.setAttribute("src", 'img/bmw.png');
     par.textContent = 'car name is : ' + this.carName + ' Model Year is : ' + this.modleYear;
     tableRow.appendChild(par);
+    tableRow.appendChild(carImg);
     table.appendChild(tableRow);
 };
 
@@ -49,9 +50,11 @@ function renderAgain() {
     var tableRow = document.createElement('tr');
     var carImg = document.createElement('img');
     var par = document.createElement('p');
-    carImg.setAttribute("src", "img_pulpit.jpg");
+    carImg.setAttribute("src", 'img/bmw.png');
     par.textContent = 'car name is : ' + arrayOfCars[index].carName + ' Model Year is : ' + arrayOfCars[index].modleYear;
     tableRow.appendChild(par);
+    tableRow.appendChild(carImg);
+
     table.appendChild(tableRow);
 }
 }
