@@ -1,0 +1,52 @@
+body{
+    background-image: url(/img/background.jpg);
+}
+h1 {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #4a4a4a;
+    height: 100px;
+    color: white;
+    padding-top: 30px;
+
+}
+form{
+    text-align: center;
+background-color: #a3a3a3;
+    float: left;
+    padding: 100px;
+    margin: 70px;
+    border-radius: 10%;
+    height: 200px;
+    width: 180px
+}
+
+.box{
+    padding: 2px 4px;
+    width: 200px;
+    margin-top: 10px;
+
+
+}
+button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+}
+table{
+    float: right;
+    text-align: center;
+    background-color: #a3a3a3;
+    padding: 100px;
+    margin: 70px;
+    border-radius: 10%;
+    height: 399px;
+    width: 562px;
+}
+p{
+    padding-top: 50px;
+
+}
